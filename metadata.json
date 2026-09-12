@@ -1,0 +1,6 @@
+{
+  "name": "12 Maval - Authentic Chulha Dining & Restaurant CMS",
+  "description": "12 Maval (अस्सल चुलीची खानदानी परंपरा) - Authentic wood-fired Maharashtrian chulha dining, table reservation, heritage food menu, instant dining billing, and restaurant CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

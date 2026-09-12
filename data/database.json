@@ -1,0 +1,681 @@
+{
+  "settings": {
+    "name": "12 Maval",
+    "tagline": "Authentic Maharashtrian Chulha Cuisine",
+    "marathiTagline": "अस्सल चुलीची खानदानी परंपरा",
+    "phone": "+91 98220 12012",
+    "whatsapp": "+91 98220 12012",
+    "email": "contact@12maval.com",
+    "address": "Old Pune-Mumbai Highway, Near Karla Phata, Maval, Kamshet, Maharashtra 410405",
+    "googleMapsUrl": "https://maps.google.com/?q=12+Maval+Kamshet",
+    "openingHours": "11:00 AM – 11:30 PM (All 7 Days Open)",
+    "instagramUrl": "https://instagram.com/12maval",
+    "facebookUrl": "https://facebook.com/12maval",
+    "youtubeUrl": "https://youtube.com/@12maval",
+    "currencySymbol": "₹",
+    "taxGstPercentage": 5,
+    "taxEnabled": true,
+    "deliveryCharge": 0,
+    "freeDeliveryThreshold": 0,
+    "minOrderAmount": 150,
+    "acceptingOrders": true
+  },
+  "content": {
+    "hero": {
+      "heading": "Experience The Soul of Maval",
+      "marathiHeading": "अस्सल चुलीची खानदानी परंपरा",
+      "subtitle": "Slow-cooked over traditional clay chulha using heirloom spices, wood-fire earthenware, and ancestral secret recipes passed through generations.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1600&q=85",
+      "badgeText": "Since 1994 • Wood-Fired Chulha Special",
+      "primaryCtaText": "Book a Table",
+      "primaryCtaLink": "#table-booking",
+      "secondaryCtaText": "View Special Thalis",
+      "secondaryCtaLink": "#specialties"
+    },
+    "about": {
+      "heading": "Rooted In The Chulha Heritage",
+      "marathiHeading": "खानदानी चव, अस्सल ग्रामीण आदरातिथ्य",
+      "description": "At 12 Maval, cooking is a revered ritual. We cook exclusively on clay hearths (चूल) using fragrant babool and mango firewood. Our freshly stone-pounded gharguti masalas, organic cold-pressed oils, and farm-fresh meat create an unmatched smoky flavor that transports you straight to the rustic heartland of Maharashtra.",
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Pure firewood clay chulha slow cooking",
+        "Fresh stone-ground house spice blends (घरगुती मसाला)",
+        "100% pure gavran desi chicken & tender mutton",
+        "Unlimited traditional rassa (Tambda & Pandhra)",
+        "Handmade hot Bajri & Jowar Bhakri right off the tawa",
+        "Spacious family dining with rustic rural ambience"
+      ],
+      "buttonText": "Explore Our Story",
+      "buttonLink": "#about"
+    },
+    "experience": {
+      "heading": "The 12 Maval Tradition",
+      "subheading": "Where Every Dish Whispers Legends of the Sahyadri",
+      "chulhaTradition": "Wood-Fired Earthen Cooking preserving natural juices and authentic rustic smokiness.",
+      "freshMasala": "Daily hand-pounded spices roasted on iron tawa without artificial preservatives.",
+      "familyAtmosphere": "Lush greenery, open-air garden seating, and warm Maharashtrian hospitality."
+    },
+    "familySection": {
+      "heading": "Celebrated by Over 250,000+ Happy Families",
+      "description": "From travelers on the expressway craving real village food to Pune-Mumbai families celebrating milestones, 12 Maval has been the ultimate culinary sanctuary for three decades.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "stats": [
+        {
+          "label": "Years of Heritage",
+          "value": "30+"
+        },
+        {
+          "label": "Chulha Thalis Served",
+          "value": "1.2M+"
+        },
+        {
+          "label": "Five Star Reviews",
+          "value": "15K+"
+        },
+        {
+          "label": "Secret Spices Mastered",
+          "value": "32"
+        }
+      ]
+    },
+    "galleryHeading": {
+      "title": "Visual Culinary Journey",
+      "subtitle": "Glimpses of wood fire kitchens, sizzling handis, and joyous dining moments at 12 Maval."
+    },
+    "reviewsHeading": {
+      "title": "Customer Love & Words",
+      "subtitle": "Hear from our beloved patrons who travel hundreds of kilometers for our chulha delicacies."
+    },
+    "contactSection": {
+      "title": "Visit Us for Authentic Dining",
+      "subtitle": "Conveniently located on Old Pune-Mumbai Highway with ample parking and open lawns.",
+      "note": "Large party or family gathering? Call in advance for reserved garden seating."
+    },
+    "footer": {
+      "aboutText": "12 Maval brings the authentic flavours of rural Maharashtra straight to your palate with heritage wood-fire chulha cooking and warm hospitality.",
+      "copyrightText": "© 2026 12 Maval. All rights reserved. अस्सल चुलीची खानदानी परंपरा."
+    }
+  },
+  "categories": [
+    {
+      "id": "cat-thali",
+      "name": "Special Chulha Thalis",
+      "marathiName": "चुलीवरच्या स्पेशल थाळ्या",
+      "order": 1
+    },
+    {
+      "id": "cat-biryani",
+      "name": "Dum Biryani & Handi",
+      "marathiName": "दम बिर्याणी आणि हंडी",
+      "order": 2
+    },
+    {
+      "id": "cat-nonveg",
+      "name": "Non-Veg Gravies & Fry",
+      "marathiName": "मटन आणि चिकन सुक्का / रस्सा",
+      "order": 3
+    },
+    {
+      "id": "cat-veg",
+      "name": "Rustic Veg Delicacies",
+      "marathiName": "अस्सल शाकाहारी जेवण",
+      "order": 4
+    },
+    {
+      "id": "cat-starters",
+      "name": "Starters & Quick Bites",
+      "marathiName": "गरमागरम स्टार्टर्स",
+      "order": 5
+    },
+    {
+      "id": "cat-breads",
+      "name": "Bhakri, Roti & Naan",
+      "marathiName": "भाकरी, चपाती आणि रोटी",
+      "order": 6
+    },
+    {
+      "id": "cat-rice",
+      "name": "Rice & Khichdi",
+      "marathiName": "इंद्रायणी भात आणि पुलाव",
+      "order": 7
+    },
+    {
+      "id": "cat-beverages",
+      "name": "Beverages & Solkadhi",
+      "marathiName": "सोलकढी आणि पेये",
+      "order": 8
+    },
+    {
+      "id": "cat-desserts",
+      "name": "Sweet Traditions",
+      "marathiName": "खानदानी गोडधोड",
+      "order": 9
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "item-1",
+      "name": "Special Gavran Chicken Chulha Thali",
+      "marathiName": "गावरान चिकन चूल थाळी",
+      "description": "Authentic free-range country chicken cooked on wood fire, gavran rassa, alani broth, 2 hot Bajri Bhakris, Indrayani rice, kanda-limbu, and solkadhi.",
+      "price": 360,
+      "category": "Special Chulha Thalis",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+      "badge": "Bestseller",
+      "isAvailable": true,
+      "isVegetarian": false,
+      "spiceLevel": "Spicy",
+      "prepTime": "20 mins"
+    },
+    {
+      "id": "item-2",
+      "name": "Special Maval Mutton Thali",
+      "marathiName": "स्पेशल मावळ मटन थाळी",
+      "description": "Tender mutton cooked in rich black masala, red tambda rassa, soothing pandhra rassa, kheema wati, 2 Jowar bhakri or chapati, and fragrant rice.",
+      "price": 440,
+      "category": "Special Chulha Thalis",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "badge": "Chef Special",
+      "isAvailable": true,
+      "isVegetarian": false,
+      "spiceLevel": "Spicy",
+      "prepTime": "25 mins"
+    },
+    {
+      "id": "item-3",
+      "name": "Gavran Chicken Dum Biryani",
+      "marathiName": "गावरान चिकन दम बिर्याणी",
+      "description": "Slow clay-pot dum biryani with marinated country chicken, aromatic long-grain basmati, brown caramelized onions, mint, and pure ghee.",
+      "price": 295,
+      "category": "Dum Biryani & Handi",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+      "badge": "Popular",
+      "isAvailable": true,
+      "isVegetarian": false,
+      "spiceLevel": "Medium",
+      "prepTime": "18 mins"
+    },
+    {
+      "id": "item-4",
+      "name": "Maval Mutton Handi Biryani",
+      "marathiName": "मावळ मटन हंडी बिर्याणी",
+      "description": "Rich succulent mutton cooked sealed in earthen handi over charcoal embers with saffron, served with spicy gravy and cucumber raita.",
+      "price": 390,
+      "category": "Dum Biryani & Handi",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80",
+      "badge": "Bestseller",
+      "isAvailable": true,
+      "isVegetarian": false,
+      "spiceLevel": "Spicy",
+      "prepTime": "22 mins"
+    },
+    {
+      "id": "item-5",
+      "name": "Pithla Bhakri Gavran Thali",
+      "marathiName": "पिठलं भाकरी अस्सल गावरान थाळी",
+      "description": "Velvety garlic-tempered gram flour pithla cooked in chulha, 2 crisp Bajri bhakri, thecha (green chilli & garlic chutney), fried red chillies, and buttermilk.",
+      "price": 220,
+      "category": "Rustic Veg Delicacies",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "badge": "Bestseller",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Spicy",
+      "prepTime": "15 mins"
+    },
+    {
+      "id": "item-6",
+      "name": "Kaju Curry Maharashtrian Style",
+      "marathiName": "काजू करी मराठमोळी पद्धत",
+      "description": "Roasted cashew nuts simmered in an aromatic roasted coconut and onion gravy with heirloom spices and rich butter garnish.",
+      "price": 280,
+      "category": "Rustic Veg Delicacies",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "badge": "Popular",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "prepTime": "15 mins"
+    },
+    {
+      "id": "item-7",
+      "name": "Mutton Sukka (Dry Fry)",
+      "marathiName": "मटन सुक्का (खमंग फ्राय)",
+      "description": "Pan-roasted tender mutton pieces tossed with crushed dry coconut, dagad phool, bedgi chillies, and fresh coriander leaves.",
+      "price": 340,
+      "category": "Non-Veg Gravies & Fry",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "badge": "Chef Special",
+      "isAvailable": true,
+      "isVegetarian": false,
+      "spiceLevel": "Spicy",
+      "prepTime": "20 mins"
+    },
+    {
+      "id": "item-8",
+      "name": "Chicken Tawa Fry",
+      "marathiName": "चिकन तवा फ्राय",
+      "description": "Juicy chicken bites coated with thick fiery masala paste roasted on a thick cast-iron tawa.",
+      "price": 270,
+      "category": "Non-Veg Gravies & Fry",
+      "image": "https://images.unsplash.com/photo-1527477321055-436158a2b0a4?auto=format&fit=crop&w=800&q=80",
+      "badge": "Fresh",
+      "isAvailable": true,
+      "isVegetarian": false,
+      "spiceLevel": "Spicy",
+      "prepTime": "15 mins"
+    },
+    {
+      "id": "item-9",
+      "name": "Paneer Angara Tikka",
+      "marathiName": "पनीर अंगारा टिक्का",
+      "description": "Cottage cheese cubes marinated in smoked hung curd, mustard oil, and kashmiri spices cooked in clay tandoor.",
+      "price": 240,
+      "category": "Starters & Quick Bites",
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80",
+      "badge": "Popular",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "prepTime": "15 mins"
+    },
+    {
+      "id": "item-10",
+      "name": "Chulha Bajri Bhakri (Per Piece)",
+      "marathiName": "चुलीवरची बाजरी भाकरी (१ नग)",
+      "description": "Hand-stretched millet flatbread puffed to perfection over live chulha coals, served hot with fresh white butter (loni).",
+      "price": 35,
+      "category": "Bhakri, Roti & Naan",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=800&q=80",
+      "badge": "Fresh",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "prepTime": "5 mins"
+    },
+    {
+      "id": "item-11",
+      "name": "Butter Garlic Naan",
+      "marathiName": "बटर गार्लिक नान",
+      "description": "Crisp, pillowy tandoori naan brushed liberally with melted butter, minced garlic, and fresh coriander.",
+      "price": 65,
+      "category": "Bhakri, Roti & Naan",
+      "image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=80",
+      "badge": "",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "prepTime": "8 mins"
+    },
+    {
+      "id": "item-12",
+      "name": "Maval Indrayani Steamed Rice",
+      "marathiName": "मावळातील सुगंधी इंद्रायणी भात",
+      "description": "Naturally sticky, intensely aromatic local Indrayani rice steamed with pure cow ghee and cumin seeds.",
+      "price": 130,
+      "category": "Rice & Khichdi",
+      "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=800&q=80",
+      "badge": "Popular",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "prepTime": "10 mins"
+    },
+    {
+      "id": "item-13",
+      "name": "Kokum Solkadhi Glass",
+      "marathiName": "अस्सल कोकणी सोलकढी",
+      "description": "Refreshing digestive pink drink prepared with freshly squeezed coconut milk, tangy kokum, garlic, and green chilli.",
+      "price": 60,
+      "category": "Beverages & Solkadhi",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
+      "badge": "Bestseller",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "prepTime": "5 mins"
+    },
+    {
+      "id": "item-14",
+      "name": "Traditional Kharvas (Colostrum Pudding)",
+      "marathiName": "गावरan म्हशीचा गोड खरवस",
+      "description": "Steamed milk pudding made from fresh first-milk colostrum, flavored with cardamom, saffron, and nutmeg.",
+      "price": 110,
+      "category": "Sweet Traditions",
+      "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80",
+      "badge": "Chef Special",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "prepTime": "5 mins"
+    },
+    {
+      "id": "item-15",
+      "name": "Ukdiche Modak (2 Pcs)",
+      "marathiName": "उकडीचे मोदक (२ नग)",
+      "description": "Steamed rice flour dumplings stuffed with grated fresh coconut, organic jaggery, and cardamom, drizzled with hot ghee.",
+      "price": 140,
+      "category": "Sweet Traditions",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+      "badge": "Popular",
+      "isAvailable": true,
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "prepTime": "10 mins"
+    }
+  ],
+  "specialDishes": [
+    {
+      "id": "spec-1",
+      "name": "Chulhivarcha Gavran Kombdi Thali",
+      "marathiName": "चुलीवरची अस्सल गावरान कोंबडी थाळी",
+      "description": "The crowning jewel of 12 Maval: free-roaming country fowl slow-braised in hand-ground black spice masala on wood-fire, served with 2 hot Bhakris and limitless rassa.",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+      "badge": "Bestseller",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "spec-2",
+      "name": "Kala Masala Mutton Handi (Half / Full)",
+      "marathiName": "काळया मसाल्याची मटन हंडी",
+      "description": "Heritage mutton braised inside sealed clay pots with charred onions, dry coconut, and stone-ground 32-spice masala.",
+      "price": 520,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "badge": "Chef Special",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "spec-3",
+      "name": "Special Chulha Matka Biryani",
+      "marathiName": "स्पेशल चूल मटका दम बिर्याणी",
+      "description": "Sealed with whole-wheat dough and baked over smoldering cow-dung and acacia embers for unmatched aroma.",
+      "price": 340,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+      "badge": "Popular",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "spec-4",
+      "name": "Chulha Pithla Thecha Bhakri Feast",
+      "marathiName": "चुलीवरचं पिठलं, खर्डा आणि गरमागरम भाकरी",
+      "description": "Garlic tadka pithla cooked in iron kadhai with fire-roasted spicy green thecha, cold-pressed groundnut oil, and thick bajra bhakri.",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "badge": "Fresh",
+      "order": 4,
+      "isActive": true
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Traditional Clay Chulha Hearth",
+      "category": "Chulha",
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "gal-2",
+      "title": "Signature Gavran Chicken Thali",
+      "category": "Food",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "gal-3",
+      "title": "Spicy Tawa Sukka Preparation",
+      "category": "Food",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "gal-4",
+      "title": "Open Garden & Lawn Dining Area",
+      "category": "Exterior",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "gal-5",
+      "title": "Fresh Bajri Bhakri Rolling & Roasting",
+      "category": "Chulha",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=800&q=80",
+      "order": 5,
+      "isActive": true
+    },
+    {
+      "id": "gal-6",
+      "title": "Family Gathering & Celebrations",
+      "category": "Family Dining",
+      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80",
+      "order": 6,
+      "isActive": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "customerName": "Abhijeet Deshmukh",
+      "reviewText": "The Chulhivarcha Gavran Kombdi Thali is out of this world! The smokiness of the wood fire and the authenticity of the black masala rassa cannot be beaten. We stop here every time on the Mumbai-Pune highway.",
+      "rating": 5,
+      "visitType": "Family Roadtrip Dinner",
+      "customerPhoto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "date": "10 Sep 2026",
+      "isActive": true,
+      "name": "Abhijeet Deshmukh",
+      "comment": "The Chulhivarcha Gavran Kombdi Thali is out of this world! The smokiness of the wood fire and the authenticity of the black masala rassa cannot be beaten. We stop here every time on the Mumbai-Pune highway."
+    },
+    {
+      "id": "rev-2",
+      "customerName": "Pooja Kulkarni",
+      "reviewText": "Outstanding hospitality! The hot Bajri Bhakris with fresh white butter and piping hot Solkadhi made our Sunday lunch unforgettable. Authentic rustic flavours with very clean seating.",
+      "rating": 5,
+      "visitType": "Weekend Family Lunch",
+      "customerPhoto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+      "date": "04 Sep 2026",
+      "isActive": true,
+      "name": "Pooja Kulkarni",
+      "comment": "Outstanding hospitality! The hot Bajri Bhakris with fresh white butter and piping hot Solkadhi made our Sunday lunch unforgettable. Authentic rustic flavours with very clean seating."
+    },
+    {
+      "id": "rev-3",
+      "customerName": "Rahul Gaikwad",
+      "reviewText": "True Maharashtrian chulha swad. The Mutton Handi Biryani was cooked to perfection with melt-in-the-mouth meat. Even the vegetarian Pithla Thecha Bhakri was incredible!",
+      "rating": 5,
+      "visitType": "Friends Get-together",
+      "customerPhoto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "date": "28 Aug 2026",
+      "isActive": true,
+      "name": "Rahul Gaikwad",
+      "comment": "True Maharashtrian chulha swad. The Mutton Handi Biryani was cooked to perfection with melt-in-the-mouth meat. Even the vegetarian Pithla Thecha Bhakri was incredible!"
+    }
+  ],
+  "offers": [
+    {
+      "id": "off-1",
+      "title": "Weekend Feast Special",
+      "description": "Get flat 15% OFF on all Special Chulha Thalis & Biryanis on orders above ₹600.",
+      "discountPercentage": 15,
+      "couponCode": "MAVAL15",
+      "minOrderAmount": 600,
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-31",
+      "isActive": true
+    },
+    {
+      "id": "off-2",
+      "title": "First Online Order Welcome",
+      "description": "Enjoy 10% instant discount on your first order placed through our website.",
+      "discountPercentage": 10,
+      "couponCode": "WELCOME10",
+      "minOrderAmount": 300,
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "isActive": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1789204598821",
+      "orderNumber": "12M-2026-1004",
+      "customerName": "Pooja Deshmukh",
+      "phone": "9822001122",
+      "orderType": "Dine-In",
+      "specialInstructions": "Less spicy please",
+      "tableNumber": "Table 5",
+      "items": [
+        {
+          "id": "line-1789204598821-1w35",
+          "dishId": "item-1",
+          "dishName": "Special Gavran Chicken Chulha Thali",
+          "price": 360,
+          "quantity": 2,
+          "total": 720
+        }
+      ],
+      "subtotal": 720,
+      "discount": 0,
+      "tax": 36,
+      "deliveryCharge": 0,
+      "grandTotal": 756,
+      "status": "New",
+      "createdAt": "2026-09-12T09:16:38.821Z",
+      "updatedAt": "2026-09-12T09:16:38.821Z"
+    },
+    {
+      "id": "ord-1789203514046",
+      "orderNumber": "H12M-2026-1003",
+      "customerName": "Vaishnav Pawar",
+      "phone": "8767168411",
+      "orderType": "Dine-In",
+      "specialInstructions": "spicy",
+      "tableNumber": "Table 1",
+      "items": [
+        {
+          "id": "line-1789203514046-gibi",
+          "dishId": "item-1",
+          "dishName": "Special Gavran Chicken Chulha Thali",
+          "price": 360,
+          "quantity": 1,
+          "total": 360
+        },
+        {
+          "id": "line-1789203514046-gakb",
+          "dishId": "item-2",
+          "dishName": "Special Maval Mutton Thali",
+          "price": 440,
+          "quantity": 1,
+          "total": 440
+        }
+      ],
+      "subtotal": 800,
+      "discount": 0,
+      "tax": 40,
+      "deliveryCharge": 0,
+      "grandTotal": 840,
+      "status": "New",
+      "createdAt": "2026-09-12T08:58:34.046Z",
+      "updatedAt": "2026-09-12T08:58:34.046Z"
+    },
+    {
+      "id": "ord-1001",
+      "orderNumber": "H12M-2026-1001",
+      "customerName": "Rohit Kadam",
+      "phone": "+91 98221 45678",
+      "orderType": "Dine-In",
+      "tableNumber": "Table 6 (Garden)",
+      "items": [
+        {
+          "id": "item-ord-1",
+          "dishId": "item-1",
+          "dishName": "Special Gavran Chicken Chulha Thali",
+          "price": 360,
+          "quantity": 2,
+          "total": 720
+        },
+        {
+          "id": "item-ord-2",
+          "dishId": "item-13",
+          "dishName": "Kokum Solkadhi Glass",
+          "price": 60,
+          "quantity": 2,
+          "total": 120
+        }
+      ],
+      "subtotal": 840,
+      "discount": 0,
+      "tax": 42,
+      "deliveryCharge": 0,
+      "grandTotal": 882,
+      "status": "Completed",
+      "createdAt": "2026-09-12T05:42:40.529Z",
+      "updatedAt": "2026-09-12T06:42:40.529Z"
+    },
+    {
+      "id": "ord-1002",
+      "orderNumber": "H12M-2026-1002",
+      "customerName": "Sneha Patil",
+      "phone": "+91 97654 32109",
+      "orderType": "Delivery",
+      "address": "Bungalow No 4, Indrayani Riverside Colony, Kamshet",
+      "specialInstructions": "Please send extra thecha and warm solkadhi.",
+      "items": [
+        {
+          "id": "item-ord-3",
+          "dishId": "item-3",
+          "dishName": "Gavran Chicken Dum Biryani",
+          "price": 295,
+          "quantity": 2,
+          "total": 590
+        },
+        {
+          "id": "item-ord-4",
+          "dishId": "item-4",
+          "dishName": "Maval Mutton Handi Biryani",
+          "price": 390,
+          "quantity": 1,
+          "total": 390
+        }
+      ],
+      "subtotal": 980,
+      "discount": 147,
+      "appliedCoupon": "MAVAL15",
+      "tax": 41.65,
+      "deliveryCharge": 0,
+      "grandTotal": 874.65,
+      "status": "Preparing",
+      "createdAt": "2026-09-12T08:12:40.529Z",
+      "updatedAt": "2026-09-12T08:32:40.529Z"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "passwordHash": "admin123",
+    "name": "Executive Manager",
+    "token": "12m-auth-1789204564881-nq8mylh"
+  },
+  "reservations": [
+    {
+      "id": "res-1789204566934",
+      "reservationNumber": "12M-RES-7223",
+      "customerName": "Rahul Patil",
+      "phone": "9876543210",
+      "guestCount": 4,
+      "reservationDate": "2026-09-15",
+      "timeSlot": "7:30 PM - 9:00 PM (Dinner)",
+      "seatingArea": "Royal Chulha Baithak",
+      "tableNumber": "Table 4",
+      "specialRequests": "Window view please",
+      "status": "Confirmed",
+      "createdAt": "2026-09-12T09:16:06.934Z"
+    }
+  ]
+}

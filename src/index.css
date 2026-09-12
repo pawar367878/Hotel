@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-marathi: 'Yatra One', 'Rozha One', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-marathi {
+    font-family: var(--font-marathi);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Dedicated Print Stylesheet */
+@media print {
+  /* Hide all regular web chrome when printing */
+  .no-print,
+  nav,
+  footer,
+  header,
+  aside,
+  .toast-container,
+  button,
+  .cart-drawer,
+  .admin-sidebar {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .print-area {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10mm !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+  }
+
+  .thermal-receipt {
+    max-width: 80mm !important;
+    margin: 0 auto !important;
+    padding: 4mm !important;
+    font-size: 10pt !important;
+    font-family: monospace, monospace !important;
+  }
+
+  @page {
+    margin: 10mm;
+    size: auto;
+  }
+}
